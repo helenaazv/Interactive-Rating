@@ -8,15 +8,6 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
-
-To be included once project is finished
-
-![](./Result/1.png)
-![](./Result/2.png)
-
-
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -24,3 +15,9 @@ To be included once project is finished
 - Flexbox
 - Google Fonts
 - JavaScript
+
+### Screenshot
+
+![](./Result/1.png)
+![](./Result/3.png)
+![](./Result/2.png)
