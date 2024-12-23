@@ -1,19 +1,19 @@
+
+/* Overall Background Setup */
 body {
     background-color: hsl(216, 12%, 8%);
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
+    height: 100vh;
     margin: 0;
     width: 100%;
     display: grid;
     place-items: center;
-    overflow: hidden; /*no scrolling*/
+    overflow: hidden;
   }
   
-  .feedback-card {
+/* Rating and Thank You Box Styling */
+.card {
     background-color:  hsl(213, 19%, 18%);
     flex-direction: column;
-    color: #fff;
     padding: 20px;
     border-radius: 15px;
     width: 300px;
@@ -22,41 +22,49 @@ body {
     gap: 20px;
   }
 
+/* Styling for the Star Icon in the Upper Left Corner */
 .star-circle {
     background-color:  hsl(212, 14%, 25%);
-    border-radius: 50%; /*perfect circle*/
-    width: 45px; /*width of the circle*/
-    height: 45px; /*height of the circle*/
+    border-radius: 50%;
+    width: 45px; 
+    height: 45px; 
     display: flex;
-    align-items: center; /*centers star vertically*/
-    justify-content: center; /*centers star horizontally*/
+    align-items: center; 
+    justify-content: center; 
     margin: 0; 
 }
 
 .star-circle img {
-    width: 17px; /* Adjust the size of the star */
+    width: 17px;
     height: auto;
 }
 
+
+/* Header Styling */
 #header {
     display: flex;
     flex-direction: column;
     align-items: start;
-    font: "Overpass";
+    font-family: "Overpass";
     text-align: start;
     font-size: 30px;
     margin: 0; 
-
+    color: #fff;
+    font-weight: 400;
   }
 
+/* Text Styling */
 .text {
-    font-size: 14px;
+    font-size: 13px;
     color: hsl(217, 12%, 63%);
     margin: 0;
-    font: "Overpass";
+    font-family: "Overpass";
     line-height: 1.5;
+    letter-spacing: 1px;
+
   }
   
+/* Layout for Rating Buttons (1-5) */
 .rating-buttons {
     display: flex;
     justify-content: space-between;
@@ -71,16 +79,16 @@ body {
     color: hsl(217, 12%, 63%);
     font-size: 16px;
     cursor: pointer;
-    font: "Overpass";
+    font-family: "Overpass";
   }
   
 .rating:hover {
-    background-color: hsl(217, 12%, 63%);
+    background-color: #fff;
   }
   
 
-
-.submit-button {
+/* Submit Button Styling */
+#submit-button {
     background-color: hsl(25, 97%, 53%);
     border: none;
     padding: 10px;
@@ -88,11 +96,40 @@ body {
     color: hsl(213, 19%, 18%);
     font-size: 16px;
     cursor: pointer;
-    font: "Overpass";
+    font-family: "Overpass";
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+#submit-button:hover {
+    background-color:  #fff;
+  }
+  
 
-  }
-  
-.submit-button:hover {
-    background-color: #ff8c32;
-  }
-  
+/* Thank You Card Styling */
+#thank-you-card {
+  place-items: center;
+  text-align: center;
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+
+.Thankyou img {
+  width: 160px; 
+  height: auto;
+}
+
+/* Container for Rating Display "You selected X out of 5" */
+.rating-container {
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.rating-container p {
+  margin: 0;
+  color: hsl(25, 97%, 53%);
+  font-size: 16px;
+  font-family: "Overpass";
+  font-weight: 300;
+}

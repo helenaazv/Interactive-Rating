@@ -12,7 +12,9 @@ Users should be able to:
 
 To be included once project is finished
 
-![](./screenshot.jpg)
+![](./Result/Screenshot 2024-12-23 at 4.59.28 PM.png)
+![](./Result/Screenshot 2024-12-23 at 4.59.40 PM.png)
+
 
 
 ### Built with
@@ -20,5 +22,5 @@ To be included once project is finished
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Google Fonts
+- JavaScript
