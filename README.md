@@ -1,4 +1,4 @@
-This is a my solution to the Interactive rating component challenge from Frontend Mentor
+This is a my solution to the Interactive rating component challenge from [Front End Mentor](https://www.frontendmentor.io/)
 
 ## Overview
 Users should be able to:
