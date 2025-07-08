@@ -17,7 +17,6 @@ Users should be able to:
 - JavaScript
 
 ### Screenshot
-
-![](./Result/1.png)
-![](./Result/3.png)
-![](./Result/2.png)
+<img src="./Result/1.png" alt="2048 Game Screenshot" width="300"/>
+<img src="./Result/2.png" alt="2048 Game Screenshot" width="300"/>
+<img src="./Result/3.png" alt="2048 Game Screenshot" width="300"/>
